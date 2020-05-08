@@ -7,7 +7,7 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "coverage": "LOGGER_LEVEL=fatal NODE_ENV=test nyc _mocha",
+    "coverage": "nyc --reporter=lcov _mocha",
     "eslint": "eslint src test",
     "lint": "npm run prettier && npm run eslint",
     "mocha": "NODE_ENV=test mocha --bail",
@@ -36,6 +36,7 @@
     "express-async-handler": "^1.1.4",
     "http-status-codes": "^1.4.0",
     "mongodb": "^3.5.7",
+    "swagger-ui-express": "^4.1.4",
     "winston": "^3.2.1"
   },
   "devDependencies": {

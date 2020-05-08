@@ -1,5 +1,8 @@
 # chassis_node
 
+[![codecov](https://codecov.io/gh/aymericsecret/chassis_node/branch/master/graph/badge.svg?token=FU5R4C21DO)](https://codecov.io/gh/aymericsecret/chassis_node)
+[![aymericsecret](https://circleci.com/gh/aymericsecret/chassis_node.svg?style=shield&circle-token=27a6905cf5496f662e3a4c38c34cc33e1a3ecead)](https://app.circleci.com/pipelines/github/aymericsecret/chassis_node)
+
 ## Installation
 
 ```bash
@@ -47,6 +50,7 @@ npm test
 npm run apidoc
 ```
 
-#### Access documentation
+#### Access API documentation
 
-`http://localhost:3018/apidoc/k77AzFyvWm6Nw7Q/`
+Simply run the project and access it there:
+`http://localhost:3001/api-docs/`
