@@ -47,6 +47,7 @@ npm test
 npm run apidoc
 ```
 
-#### Access documentation
+#### Access API documentation
 
-`http://localhost:3018/apidoc/k77AzFyvWm6Nw7Q/`
+Simply run the project and access it there:
+`http://localhost:3001/api-docs/`
